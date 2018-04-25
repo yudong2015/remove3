@@ -5,7 +5,7 @@ import sys
 
 def getLastOne(n):
     starts = getStartFroms(n)
-    print starts
+    print "starts: {}".format(starts)
     positionN1 = 1
     """
     positionN = (3positionN1 + startN - 1 - a) / 2
@@ -21,7 +21,7 @@ def getLastOne(n):
         """
         positionN = result if remainder else result - 1
         positionN1 = positionN
-    print "The last one is: {}".format(positionN1)
+    print "The last one quite is: {}".format(positionN1)
 
 
 def getStartFroms(n):
